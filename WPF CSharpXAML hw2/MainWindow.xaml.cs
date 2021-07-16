@@ -149,7 +149,7 @@ namespace WPF_CSharpXAML_hw2
                             {
                                 Stop();
                                 MessageBox.Show($"Results:" +
-                                    $"\nSpeed: {Speed}chars/min" +
+                                    $"\nSpeed: {Speed} chars/min" +
                                     $"\nFails: {Fails}" +
                                     $"\nDifficulty: {Difficulty}" +
                                     $"\nCase Sensitive: " + (checkBox.IsChecked == true ? "checked" : "unchecked"), "Result", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -372,7 +372,7 @@ namespace WPF_CSharpXAML_hw2
             string result = String.Empty;
             if (checkBox.IsChecked == true)
             {
-                symbols = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>?";
+                symbols = "`1234567890-=qwertyuiop[]\\asdfghjkl;'zxcvbnm,./~!@#$%^&*()+QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>?";
             }
             else
             {
